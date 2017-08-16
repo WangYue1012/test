@@ -12,7 +12,6 @@ const SSRroutes: Routes = [
 ];
 
 import { HomePageComponent } from '../pages/home/home-page/home-page.component';
-import { AboutPageComponent } from '../pages/about/about-page/about-page.component';
 import { LoginPageComponent } from '../pages/user/login-page/login-page.component';
 import { ConcertListComponent } from '../pages/concert/concert-list/concert-list.component';
 const SPAroutes: Routes = [
@@ -21,7 +20,6 @@ const SPAroutes: Routes = [
     children: []
   },
   { path: 'home', component: HomePageComponent },
-  { path: 'about', component: AboutPageComponent },
   { path: 'login', component: LoginPageComponent },
   { path: 'concert', component: ConcertListComponent }
 ];
